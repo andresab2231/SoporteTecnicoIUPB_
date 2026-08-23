@@ -1,0 +1,29 @@
+Requerimiento de Auditoria Sistema Transaccional
+
+1. Nombre Proyecto
+
+Portal Técnico Inteligente para la Gestión de Soporte
+
+2. Nombre Aplicacion
+
+SoporteIA
+
+3. Proposito Solucion Software
+
+4. Proposito Auditoria Software
+
+5. Actores
+
+6. Requerimiento
+
+7. Problematica
+
+8. Escenario Actual
+
+9. Escenario Futuro
+
+10. Proceso a Auditar
+
+11. Estandar Asociado al Proceso
+
+12. Estandar de Seguridad
