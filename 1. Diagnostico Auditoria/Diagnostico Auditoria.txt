@@ -2,7 +2,7 @@ Requerimiento de Auditoria Sistema Transaccional
 
 1. Nombre Proyecto
 
-Portal Técnico Inteligente para la Gestión de Soporte
+Portal Tecnico Inteligente para la Gestion de Soporte
 
 2. Nombre Aplicacion
 
@@ -10,20 +10,40 @@ SoporteIA
 
 3. Proposito Solucion Software
 
+Gestionar solicitudes de soporte tecnico mediante un portal web con apoyo de inteligencia artificial para su clasificacion y priorizacion.
+
 4. Proposito Auditoria Software
+
+Verificar que la gestion de las solicitudes de soporte se realice correctamente y de forma segura.
 
 5. Actores
 
+Usuario, tecnico, administrador e inteligencia artificial.
+
 6. Requerimiento
+
+La organizacion requiere un portal que permita registrar, gestionar y hacer seguimiento a las solicitudes de soporte tecnico, utilizando IA para facilitar su clasificacion.
 
 7. Problematica
 
+La gestion manual de las solicitudes puede generar desorganizacion, errores y demoras en la atencion.
+
 8. Escenario Actual
+
+Las solicitudes de soporte son recibidas y gestionadas mediante procesos manuales o diferentes medios de comunicacion.
 
 9. Escenario Futuro
 
+Las solicitudes seran gestionadas desde un unico portal y contaran con apoyo de IA para su clasificacion y priorizacion.
+
 10. Proceso a Auditar
+
+Gestion de solicitudes de soporte tecnico.
 
 11. Estandar Asociado al Proceso
 
+ISO/IEC 20000-1:2018.
+
 12. Estandar de Seguridad
+
+ISO/IEC 27001:2022 e ISO/IEC 27032:2023.
