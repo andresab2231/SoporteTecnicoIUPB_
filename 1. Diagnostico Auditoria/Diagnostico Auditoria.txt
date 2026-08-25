@@ -1,49 +1,72 @@
 Requerimiento de Auditoria Sistema Transaccional
 
 1. Nombre Proyecto
+Sistema Transaccional de IA para la Gestión de Soporte Técnico
 
-Portal Tecnico Inteligente para la Gestion de Soporte
-
-2. Nombre Aplicacion
-
+2. Nombre Aplicación
 SoporteIA
 
-3. Proposito Solucion Software
+3. Propósito Solución Software
+La solución de software es un sistema transaccional orientado a la gestión de solicitudes de soporte técnico (CRUD - Ingreso, Modificación, retiro y consulta), utilizando un agente de inteligencia artificial para la clasificación y priorización de los requerimientos.
 
-Gestionar solicitudes de soporte tecnico mediante un portal web con apoyo de inteligencia artificial para su clasificacion y priorizacion.
-
-4. Proposito Auditoria Software
-
-Verificar que la gestion de las solicitudes de soporte se realice correctamente y de forma segura.
+4. Propósito Auditoría Software
+Cumplimiento de los estándares de seguridad (ISO 27001 - ISO 27032) y del estándar orientado a la gestión de servicios (ISO 20000-1) en la solución de software.
 
 5. Actores
-
-Usuario, tecnico, administrador e inteligencia artificial.
+A. Auditor de TI
+B. Usuario
+C. Técnico de Soporte
+D. Administrador
+E. Sistema Agente de IA
 
 6. Requerimiento
+La organización requiere un sistema de gestión de información (CRUD) para registrar, consultar, modificar y gestionar solicitudes de soporte técnico, con el propósito de mejorar la atención y seguimiento de los incidentes reportados por los usuarios, asegurando una gestión ágil, segura y confiable.
+Un usuario registra una solicitud de soporte técnico en la plataforma describiendo el problema presentado. El sistema de IA analiza la información suministrada, identifica la categoría y prioridad de la solicitud y posteriormente el técnico de soporte procede a gestionar el caso hasta su solución.
 
-La organizacion requiere un portal que permita registrar, gestionar y hacer seguimiento a las solicitudes de soporte tecnico, utilizando IA para facilitar su clasificacion.
+Objeto:
+    Usuario.
+Entidad:
+    Cliente interno.
+    Tipo de usuario.
 
-7. Problematica
+Objeto:
+    Soporte.
+Entidad:
+    Solicitud.
+    Categoría.
+    Prioridad.
+    Estado.
 
-La gestion manual de las solicitudes puede generar desorganizacion, errores y demoras en la atencion.
+Objeto:
+    Técnico.
+Entidad:
+    Empleado.
+    Tipo técnico.
+
+Objeto:
+    Transacción.
+Entidad:
+    Ticket.
+    Seguimiento.
+    Cierre.
+
+7. Problemática
+Cuando un usuario realiza una solicitud de soporte técnico, la gestión manual de la información puede generar demoras, errores en la clasificación y dificultades para establecer la prioridad y realizar seguimiento al caso.
 
 8. Escenario Actual
-
-Las solicitudes de soporte son recibidas y gestionadas mediante procesos manuales o diferentes medios de comunicacion.
+El usuario informa el problema al área de soporte mediante diferentes medios de comunicación. El técnico recibe la solicitud, identifica manualmente el tipo de problema, determina su prioridad y procede a atenderla.
 
 9. Escenario Futuro
-
-Las solicitudes seran gestionadas desde un unico portal y contaran con apoyo de IA para su clasificacion y priorizacion.
+El usuario inicia la aplicación desde un dispositivo, se autentica en la plataforma y registra una solicitud describiendo el problema presentado. El sistema de IA analiza la solicitud y determina automáticamente su categoría y prioridad. Posteriormente, el técnico de soporte consulta el ticket, realiza la atención correspondiente y registra la solución hasta finalizar el proceso.
 
 10. Proceso a Auditar
+Gestión de solicitudes de soporte técnico.
 
-Gestion de solicitudes de soporte tecnico.
-
-11. Estandar Asociado al Proceso
-
+11. Estándar Asociado al Proceso
 ISO/IEC 20000-1:2018.
 
-12. Estandar de Seguridad
+12. Estándar de Seguridad
+ISO/IEC 27001:2022 - ISO/IEC 27032:2023.
 
-ISO/IEC 27001:2022 e ISO/IEC 27032:2023.
+13. Empresa Espejo Candidata a Aplicar la Auditoría
+Carvajal Tecnología y Servicios.
