@@ -7,7 +7,7 @@ Sistema Transaccional de IA para la Gestión de Soporte Técnico
 SoporteIA
 
 3. Propósito Solución Software
-La solución de software es un sistema transaccional orientado a la gestión de solicitudes de soporte técnico (CRUD - Ingreso, Modificación, consulta y gestión), utilizando un agente de inteligencia artificial para la clasificación y priorización de los requerimientos.
+La solución de software es un sistema transaccional orientado a la gestión de solicitudes de soporte técnico (CRUD - Ingreso, Modificación, Retiro y Consulta), utilizando un agente de inteligencia artificial para la clasificación y priorización de los requerimientos.
 
 4. Propósito Auditoría Software
 Cumplimiento de los estándares de seguridad (ISO 27001 - ISO 27032) y del estándar orientado a la gestión de servicios (ISO 20000-1) en la solución de software.
@@ -19,45 +19,52 @@ Técnico de Soporte
 Administrador
 Sistema Agente de IA
 
-6. Requerimiento
-La organización requiere un sistema de gestión de información (CRUD) para registrar, consultar, modificar y gestionar solicitudes de soporte técnico, con el propósito de mejorar la atención y seguimiento de los incidentes reportados por los usuarios, asegurando una gestión ágil, segura y confiable.
-Un usuario registra una solicitud de soporte técnico en la plataforma describiendo el problema presentado. El sistema de IA analiza la información suministrada, identifica la categoría y prioridad de la solicitud y posteriormente el técnico de soporte procede a gestionar el caso hasta su solución.
+6. Requerimiento:
+La organización requiere un sistema de gestión de información (CRUD) para registrar, consultar, modificar y gestionar solicitudes de soporte técnico, con el propósito de mejorar la atención y seguimiento de los incidentes reportados por los usuarios, asegurando una gestión ágil, segura y confiable. Un usuario registra una solicitud de soporte técnico en la plataforma describiendo el problema presentado. El sistema de IA analiza la información suministrada, identifica la categoría y prioridad de la solicitud y posteriormente el técnico de soporte procede a gestionar el caso hasta su solución.
 
-Objeto:
+Objeto: 
+    Geografía.
+Entidad: 
+    Sede.
+
+Objeto: 
+    Organización.
+Entidad: 
+    Área.
+
+Objeto: 
+    Comprador
+Entidad: 
     Usuario.
-Entidad:
-    Cliente interno.
-    Tipo de usuario.
 
-Objeto:
-    Soporte.
-Entidad:
+Objeto: 
+    Vendedor
+Entidad: 
+    Técnico.
+
+Objeto: 
+    Servicio.
+Entidad: 
     Solicitud.
     Categoría.
     Prioridad.
     Estado.
 
-Objeto:
-    Técnico.
-Entidad:
-    Empleado.
-    Tipo técnico.
-
-Objeto:
+Objeto: 
     Transacción.
-Entidad:
+Entidad: 
     Ticket.
     Seguimiento.
     Cierre.
 
 7. Problemática
-Cuando un usuario realiza una solicitud de soporte técnico, la gestión manual de la información puede generar demoras, errores en la clasificación y dificultades para establecer la prioridad y realizar seguimiento al caso.
+Cuando un usuario realiza una solicitud de soporte técnico, la gestión manual de la información puede generar demoras en la atención, dificultades para establecer la prioridad del requerimiento y problemas para realizar seguimiento a las solicitudes de las diferentes áreas de la organización.
 
 8. Escenario Actual
-El usuario informa el problema al área de soporte mediante diferentes medios de comunicación. El técnico recibe la solicitud, identifica manualmente el tipo de problema, determina su prioridad y procede a atenderla.
+El usuario informa el problema al área de soporte mediante diferentes medios de comunicación. El técnico recibe la solicitud, identifica manualmente el tipo de problema y su prioridad, y procede a gestionar el caso según el área y sede donde se presenta.
 
 9. Escenario Futuro
-El usuario inicia la aplicación desde un dispositivo, se autentica en la plataforma y registra una solicitud describiendo el problema presentado. El sistema de IA analiza la solicitud y determina automáticamente su categoría y prioridad. Posteriormente, el técnico de soporte consulta el ticket, realiza la atención correspondiente y registra la solución hasta finalizar el proceso.
+El usuario inicia la aplicación desde un dispositivo, se autentica en la plataforma y registra una solicitud indicando el problema, área y sede. El sistema de IA analiza la información suministrada y determina automáticamente la categoría y prioridad de la solicitud. Posteriormente, el técnico consulta el ticket, atiende el requerimiento y registra su seguimiento hasta finalizar el proceso.
 
 10. Proceso a Auditar
 Gestión de solicitudes de soporte técnico.
@@ -73,7 +80,7 @@ A. Base de Datos
 B. Aplicación Backend
 C. Aplicación Web
 D. Proceso de Negocio (Business Rule)
-E. Servidor en la Nube
+E. Servidor en la nube
 
 14. Empresa Espejo Candidata a Aplicar la Auditoría
 Carvajal Tecnología y Servicios.
