@@ -20,39 +20,51 @@ Administrador
 Sistema Agente de IA
 
 6. Requerimiento:
-La organización requiere un sistema de gestión de información (CRUD) para registrar, consultar, modificar y gestionar solicitudes de soporte técnico, con el propósito de mejorar la atención y seguimiento de los incidentes reportados por los usuarios, asegurando una gestión ágil, segura y confiable. Un usuario registra una solicitud de soporte técnico en la plataforma describiendo el problema presentado. El sistema de IA analiza la información suministrada, identifica la categoría y prioridad de la solicitud y posteriormente el técnico de soporte procede a gestionar el caso hasta su solución.
+Un usuario ingresa a la plataforma, se autentica y registra una solicitud de soporte técnico indicando el problema presentado y la sede o área correspondiente. El sistema de IA analiza la información suministrada, determina la categoría y prioridad del requerimiento y posteriormente el técnico de soporte procede a gestionar el caso hasta su solución.
 
-Objeto: 
+Objeto:
     Geografía.
-Entidad: 
+
+Entidad:
+    País.
+    Departamento.
+    Ciudad.
     Sede.
 
-Objeto: 
+Objeto:
     Organización.
-Entidad: 
+
+Entidad:
+    Empresa.
     Área.
 
-Objeto: 
-    Comprador
-Entidad: 
-    Usuario.
-
-Objeto: 
-    Vendedor
-Entidad: 
+Objeto:
     Técnico.
 
-Objeto: 
+Entidad:
+    Empleado.
+    Tipo Técnico.
+
+Objeto:
+    Usuario.
+
+Entidad:
+    Cliente.
+    Tipo Usuario.
+
+Objeto:
     Servicio.
-Entidad: 
+
+Entidad:
     Solicitud.
     Categoría.
     Prioridad.
     Estado.
 
-Objeto: 
+Objeto:
     Transacción.
-Entidad: 
+
+Entidad:
     Ticket.
     Seguimiento.
     Cierre.
@@ -61,10 +73,10 @@ Entidad:
 Cuando un usuario realiza una solicitud de soporte técnico, la gestión manual de la información puede generar demoras en la atención, dificultades para establecer la prioridad del requerimiento y problemas para realizar seguimiento a las solicitudes de las diferentes áreas de la organización.
 
 8. Escenario Actual
-El usuario informa el problema al área de soporte mediante diferentes medios de comunicación. El técnico recibe la solicitud, identifica manualmente el tipo de problema y su prioridad, y procede a gestionar el caso según el área y sede donde se presenta.
+El usuario informa el problema al área de soporte mediante diferentes medios de comunicación. El técnico recibe la solicitud, identifica manualmente el tipo de problema y determina su prioridad para proceder con la atención.
 
 9. Escenario Futuro
-El usuario inicia la aplicación desde un dispositivo, se autentica en la plataforma y registra una solicitud indicando el problema, área y sede. El sistema de IA analiza la información suministrada y determina automáticamente la categoría y prioridad de la solicitud. Posteriormente, el técnico consulta el ticket, atiende el requerimiento y registra su seguimiento hasta finalizar el proceso.
+El usuario inicia la aplicación desde un dispositivo, se autentica en la plataforma y registra una solicitud indicando el problema presentado. El sistema de IA analiza la información y determina automáticamente la categoría y prioridad del requerimiento. Posteriormente, el técnico de soporte consulta el ticket, atiende la solicitud y registra el seguimiento hasta su cierre.
 
 10. Proceso a Auditar
 Gestión de solicitudes de soporte técnico.
@@ -80,7 +92,7 @@ A. Base de Datos
 B. Aplicación Backend
 C. Aplicación Web
 D. Proceso de Negocio (Business Rule)
-E. Servidor en la nube
+E. Servidores (Out Premise - Nube)
 
 14. Empresa Espejo Candidata a Aplicar la Auditoría
 Carvajal Tecnología y Servicios.
